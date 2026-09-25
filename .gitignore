@@ -1,0 +1,34 @@
+# --- data & features (never committed) ---
+data/**
+data_features_prepared/**
+!data/README.md
+!data_features_prepared/README.md
+
+# --- caches, models, logs ---
+logs/
+hf_cache/
+torch_cache/
+pip_cache/
+feats/
+*.npz
+*.pkl
+*.joblib
+*.bin
+*.pt
+*.safetensors
+output_*/
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+.env
+
+# --- results: keep the small summaries, drop the rest ---
+results/**/*.csv
+results/**/*.pkl
+
+# --- OS ---
+.DS_Store
