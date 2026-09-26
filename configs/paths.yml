@@ -1,0 +1,22 @@
+# All paths are relative to the repository root unless absolute.
+data_root:      data
+features_root:  data_features_prepared
+mage_features:  data_features_prepared/mage
+cmv_features:   data_features_prepared/cmv
+results_root:   results
+logs_root:      logs
+
+# Config files (relative to repo root)
+model_families_file:   configs/model_families.json
+selected_features_file: configs/selected_features.json
+feature_groups_file:   configs/feature_groups.json
+
+domains:            [cmv, yelp, xsum, tldr, eli5, wp, roct, hswag, squad, sci_gen]
+unseen_test_domains: [cnn, dialogsum, imdb, pubmed]
+unseen_models:      [gpt4, gpt5_6_sol]
+
+svm:
+  kernel: linear
+  C: 1.0
+  class_weight: balanced
+  random_state: 42

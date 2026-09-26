@@ -1,0 +1,9 @@
+{
+  "openai":     ["gpt-3.5-trubo", "text-davinci-003", "text-davinci-002"],
+  "llama":      ["_7B", "_13B", "_30B", "_65B", "Llama_3_1_8B", "Llama_4_Scout_17B_16E"],
+  "glm":        ["GLM130B", "glm_5_2"],
+  "flan_t5":    ["flan_t5_small", "flan_t5_base", "flan_t5_large", "flan_t5_xl", "flan_t5_xxl"],
+  "opt":        ["opt_125m", "opt_350m", "opt_1.3b", "opt_2.7b", "opt_6.7b", "opt_13b", "opt_30b", "opt_iml_30b", "opt_iml_max_1.3b"],
+  "bigscience": ["bloom_7b", "t0_3b", "t0_11b"],
+  "eleuther":   ["gpt_j", "gpt_neox"]
+}
