@@ -16,11 +16,8 @@ repository and point `MAGE_REPO` at it:
 `training/longformer/main.py` in that repository is the script we call; the
 hyperparameters are theirs (`training/longformer/train.sh`): max sequence length
 2048, effective batch size 16, learning rate 3e-5, 5 epochs, fp16, seed
-42629309. Our wrappers are in `scripts/`:
+42629309. 
 
-- `train_longformer_orig.sh` — single GPU, MAGE's exact configuration
-- `train_longformer_cont_ddp.sh` — four GPUs, continuation-only data, same
-  effective batch size
 
 Test-bed CSVs are built with MAGE's `deployment/prepare_testbeds.py`; the edits
 we applied to it are documented in `prepare_testbeds_patch.md`.

@@ -3,7 +3,7 @@
 This folder is empty in the repository — the corpus is released separately.
 Download it and unpack it here, keeping the structure below.
 
-**Download:** [Zenodo record](10.5281/zenodo.23003160)
+**Download:** [Zenodo record](https://doi.org/10.5281/zenodo.23003160)
 
 ## Layout
 

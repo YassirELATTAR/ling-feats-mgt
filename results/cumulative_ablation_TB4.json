@@ -1,0 +1,163 @@
+{
+  "ablation_order": [
+    "readability",
+    "entities",
+    "emotion",
+    "morphological",
+    "semantic",
+    "dependency",
+    "surface",
+    "psycholinguistic",
+    "pos",
+    "information",
+    "lexical_richness"
+  ],
+  "timestamp": "<emptynow>",
+  "all_results": [
+    {
+      "removed_groups": [
+        "readability"
+      ],
+      "num_groups_removed": 1,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.835563814390623,
+      "auroc": 0.9692770361186313,
+      "f1_macro": 0.8330213787813803
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities"
+      ],
+      "num_groups_removed": 2,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.8350635195740347,
+      "auroc": 0.9689689041823416,
+      "f1_macro": 0.8325028379439962
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion"
+      ],
+      "num_groups_removed": 3,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.8328479282434291,
+      "auroc": 0.9677681156342836,
+      "f1_macro": 0.8301884562019619
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion",
+        "morphological"
+      ],
+      "num_groups_removed": 4,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.8312755731055801,
+      "auroc": 0.9667631539451277,
+      "f1_macro": 0.8285457172974398
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion",
+        "morphological",
+        "semantic"
+      ],
+      "num_groups_removed": 5,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.8301499097682563,
+      "auroc": 0.966201108432034,
+      "f1_macro": 0.8273565685538224
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion",
+        "morphological",
+        "semantic",
+        "dependency"
+      ],
+      "num_groups_removed": 6,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.8273089499169153,
+      "auroc": 0.9590999589258803,
+      "f1_macro": 0.8243400602778772
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion",
+        "morphological",
+        "semantic",
+        "dependency",
+        "surface"
+      ],
+      "num_groups_removed": 7,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.8258795361552344,
+      "auroc": 0.9621489576238601,
+      "f1_macro": 0.8228373205110475
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion",
+        "morphological",
+        "semantic",
+        "dependency",
+        "surface",
+        "psycholinguistic"
+      ],
+      "num_groups_removed": 8,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.8232708560401665,
+      "auroc": 0.9517192000772557,
+      "f1_macro": 0.8203701891857438
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion",
+        "morphological",
+        "semantic",
+        "dependency",
+        "surface",
+        "psycholinguistic",
+        "pos"
+      ],
+      "num_groups_removed": 9,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.7928422105883824,
+      "auroc": 0.9455069065558702,
+      "f1_macro": 0.7891935844190614
+    },
+    {
+      "removed_groups": [
+        "readability",
+        "entities",
+        "emotion",
+        "morphological",
+        "semantic",
+        "dependency",
+        "surface",
+        "psycholinguistic",
+        "pos",
+        "information"
+      ],
+      "num_groups_removed": 10,
+      "testbed": "4_arbitrary_domains_arbitrary_models",
+      "accuracy": 0.7842835956903175,
+      "auroc": 0.9120044306671872,
+      "f1_macro": 0.779640500901353
+    }
+  ]
+}

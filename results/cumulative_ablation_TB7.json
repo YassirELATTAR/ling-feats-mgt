@@ -1,0 +1,163 @@
+{
+  "ablation_order": [
+    "morphological",
+    "psycholinguistic",
+    "information",
+    "dependency",
+    "surface",
+    "emotion",
+    "entities",
+    "semantic",
+    "readability",
+    "pos",
+    "lexical_richness"
+  ],
+  "timestamp": "<emptynow>",
+  "all_results": [
+    {
+      "removed_groups": [
+        "morphological"
+      ],
+      "num_groups_removed": 1,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.8398975344220301,
+      "auroc": 0.8949843980571847,
+      "f1_macro": 0.8396238972409764
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic"
+      ],
+      "num_groups_removed": 2,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.8523855267371118,
+      "auroc": 0.9076924718368928,
+      "f1_macro": 0.8521744844676747
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information"
+      ],
+      "num_groups_removed": 3,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.893691962856228,
+      "auroc": 0.9389710432537396,
+      "f1_macro": 0.8934988043683696
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information",
+        "dependency"
+      ],
+      "num_groups_removed": 4,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.8997758565481908,
+      "auroc": 0.9373968966824738,
+      "f1_macro": 0.8993378742382238
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information",
+        "dependency",
+        "surface"
+      ],
+      "num_groups_removed": 5,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.8984950368235671,
+      "auroc": 0.9349215963389191,
+      "f1_macro": 0.8979606687368127
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information",
+        "dependency",
+        "surface",
+        "emotion"
+      ],
+      "num_groups_removed": 6,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.899135446685879,
+      "auroc": 0.9294629681608748,
+      "f1_macro": 0.8985362222112894
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information",
+        "dependency",
+        "surface",
+        "emotion",
+        "entities"
+      ],
+      "num_groups_removed": 7,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.8962536023054755,
+      "auroc": 0.9288187006642932,
+      "f1_macro": 0.8955898632233523
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information",
+        "dependency",
+        "surface",
+        "emotion",
+        "entities",
+        "semantic"
+      ],
+      "num_groups_removed": 8,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.8997758565481908,
+      "auroc": 0.9319070810332574,
+      "f1_macro": 0.8991903767189864
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information",
+        "dependency",
+        "surface",
+        "emotion",
+        "entities",
+        "semantic",
+        "readability"
+      ],
+      "num_groups_removed": 9,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.9020172910662824,
+      "auroc": 0.9298306520315355,
+      "f1_macro": 0.9014782621604971
+    },
+    {
+      "removed_groups": [
+        "morphological",
+        "psycholinguistic",
+        "information",
+        "dependency",
+        "surface",
+        "emotion",
+        "entities",
+        "semantic",
+        "readability",
+        "pos"
+      ],
+      "num_groups_removed": 10,
+      "testbed": "7c_unseen_domains_models_combined_gpt4_gpt5_6_sol",
+      "accuracy": 0.8943323727185398,
+      "auroc": 0.9233190363399697,
+      "f1_macro": 0.8936231485541444
+    }
+  ]
+}
