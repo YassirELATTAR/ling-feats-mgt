@@ -1,5 +1,7 @@
 # A Systematic Analysis of Linguistic Features in AI-Generated English Text Detection Across Domains and Models
 
+![Overview Image](src/overview_fig.png)
+
 Code and data for the paper *A Systematic Analysis of Linguistic Features in
 AI-Generated English Text Detection Across Domains and Models* (El Attar,
 Dönmez, Maurer, and Falenska).
